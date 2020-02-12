@@ -1,0 +1,94 @@
+/*html { 
+    background: url("C:/Users/humphriesd/Documents/MyStuff/DeShawnPortfolio/images/deshawn.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: 25%;
+    -o-background-size: cover;
+    background-size: cover;
+  }*/
+
+/*Remove scrollbars from Chrome*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+#services_txt {
+    font-size: 72px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+#h1_1 {
+    position: absolute;
+    top: 285px;
+    left: 100px;
+    font-size: 25px;
+ }
+
+#h3_1 {
+    position: absolute;
+    top: 285px;
+    left: 100px;
+    color: rgb(54, 54, 54);
+}
+
+#blurb {
+    position: absolute;
+    font-size: 18px;
+    top: 325px;
+    left: 100px;
+}
+
+#mern {
+    position: absolute;
+    left: 65%;
+    top: 325px;
+}
+
+#javascript_txt {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 5%;
+    top: 675px;
+}
+
+#html_txt {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 20%;
+    top: 675px;
+}
+
+#css_txt {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 35%;
+    top: 675px;
+}
+
+#react_txt {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 50%;
+    top: 675px;
+}
+
+#node_txt {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 65%;
+    top: 675px;
+}
+
+#mongodb_txt {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 80%;
+    top: 675px;
+}

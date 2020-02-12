@@ -1,0 +1,170 @@
+/*html { 
+    background: url("C:/Users/humphriesd/Documents/MyStuff/DeShawnPortfolio/images/deshawn.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: 25%;
+    -o-background-size: cover;
+    background-size: cover;
+  }*/
+
+  body {
+    border-bottom: 100px black;
+    /*background-image: url("C:/Users/deshawn_hu/Documents/DeShawnPortfolio/images/deshawn.jpg");*/
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+    background-position: center center;
+    opacity: 50%;
+    position: relative;
+}
+
+/*Remove scrollbars from Chrome*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+#contactme {
+    font-size: 72px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+#h1_1 {
+    position: absolute;
+    top: 285px;
+    left: 100px;
+    font-size: 25px;
+ }
+
+#h3_1 {
+    position: absolute;
+    top: 325px;
+    left: 100px;
+    color: rgb(54, 54, 54);
+}
+
+#blurb {
+    position: absolute;
+    font-size: 18px;
+    top: 375px;
+    left: 100px;
+}
+
+#logo_h2 {
+   position: absolute;
+   left: 100px;
+   top: 0%;
+}
+
+.de, .logo_b, #wd {
+   color: rgb(6, 172, 238);
+}
+
+#bottle {
+    position: absolute;
+    right: 150px;
+    top: 250px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+#border {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    height: 25%;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(14, 13, 13);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(6, 172, 238) transparent transparent transparent;
+    /*border-color: rgb(156, 26, 26) transparent transparent transparent;*/
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#dbimg {
+    float: left;
+    right: 50%;
+    top: 100px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    position: relative;
+    right: 5%;
+    color: black;
+    text-align: center;
+    padding:  14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif*/
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    /*color: rgb(156, 26, 26);*/
+    color: rgb(6, 172, 238);
+}
+
+.topnav a.inactive {
+    color: black;
+}
+
+.topnav {
+    font: fantasy;
+}
