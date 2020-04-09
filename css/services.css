@@ -11,12 +11,6 @@
     display: none;
 }
 
-.grow:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
 #services_txt {
     font-size: 72px;
     position: absolute;
@@ -52,50 +46,39 @@
     top: 325px;
 }
 
-#javascript_txt {
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.grow {
     position: relative;
     font-size: 14px;
     text-align: center;
-    left: 5%;
     top: 675px;
+}
+
+#javascript_txt {
+    left: 5%;
 }
 
 #html_txt {
-    position: relative;
-    font-size: 14px;
-    text-align: center;
     left: 20%;
-    top: 675px;
 }
 
 #css_txt {
-    position: absolute;
-    font-size: 14px;
-    text-align: center;
     left: 35%;
-    top: 675px;
 }
 
 #react_txt {
-    position: absolute;
-    font-size: 14px;
-    text-align: center;
     left: 50%;
-    top: 675px;
 }
 
 #node_txt {
-    position: absolute;
-    font-size: 14px;
-    text-align: center;
     left: 65%;
-    top: 675px;
 }
 
 #mongodb_txt {
-    position: absolute;
-    font-size: 14px;
-    text-align: center;
     left: 80%;
-    top: 675px;
 }
